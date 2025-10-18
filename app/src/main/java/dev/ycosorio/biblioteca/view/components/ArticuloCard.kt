@@ -18,7 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import dev.ycosorio.biblioteca.data.repository.model.Articulo
+import dev.ycosorio.biblioteca.data.model.Articulo
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

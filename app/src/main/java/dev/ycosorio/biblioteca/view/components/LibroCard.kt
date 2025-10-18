@@ -23,7 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import dev.ycosorio.biblioteca.data.repository.model.Libro
+import dev.ycosorio.biblioteca.data.model.Libro
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

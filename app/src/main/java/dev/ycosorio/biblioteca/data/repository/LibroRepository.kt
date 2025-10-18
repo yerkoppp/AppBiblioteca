@@ -1,7 +1,7 @@
 package dev.ycosorio.biblioteca.data.repository
 
 import dev.ycosorio.biblioteca.R
-import dev.ycosorio.biblioteca.data.repository.model.Libro
+import dev.ycosorio.biblioteca.data.model.Libro
 import kotlinx.coroutines.delay
 
 class LibroRepository {

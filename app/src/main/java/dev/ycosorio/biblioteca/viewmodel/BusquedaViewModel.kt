@@ -2,9 +2,9 @@ package dev.ycosorio.biblioteca.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import dev.ycosorio.biblioteca.data.repository.model.Articulo
+import dev.ycosorio.biblioteca.data.model.Articulo
 import dev.ycosorio.biblioteca.data.repository.ArticuloRepository
-import dev.ycosorio.biblioteca.data.repository.model.Libro
+import dev.ycosorio.biblioteca.data.model.Libro
 import dev.ycosorio.biblioteca.data.repository.LibroRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async

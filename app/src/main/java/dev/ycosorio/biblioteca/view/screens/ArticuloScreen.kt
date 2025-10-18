@@ -33,7 +33,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import dev.ycosorio.biblioteca.data.repository.model.Articulo
+import dev.ycosorio.biblioteca.data.model.Articulo
 import dev.ycosorio.biblioteca.data.repository.ArticuloRepository
 import kotlinx.coroutines.launch
 

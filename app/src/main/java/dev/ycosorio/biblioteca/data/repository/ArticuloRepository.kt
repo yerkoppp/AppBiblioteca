@@ -1,6 +1,6 @@
 package dev.ycosorio.biblioteca.data.repository
 
-import dev.ycosorio.biblioteca.data.repository.model.Articulo
+import dev.ycosorio.biblioteca.data.model.Articulo
 import kotlinx.coroutines.delay
 
 class ArticuloRepository {

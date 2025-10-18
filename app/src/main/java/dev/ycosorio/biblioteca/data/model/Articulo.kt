@@ -1,4 +1,4 @@
-package dev.ycosorio.biblioteca.data.repository.model
+package dev.ycosorio.biblioteca.data.model
 
 data class Articulo(
     val id: Int,

@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import dev.ycosorio.biblioteca.data.repository.model.Libro
+import dev.ycosorio.biblioteca.data.model.Libro
 import dev.ycosorio.biblioteca.data.repository.LibroRepository
 import kotlinx.coroutines.launch
 
