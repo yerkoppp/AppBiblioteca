@@ -63,6 +63,7 @@ class BusquedaViewModel : ViewModel() {
             } catch (e: Exception) {
                 // También es seguro actualizar la UI en caso de error.
                 _uiState.update { it.copy(isLoading = false, error = "Error en la búsqueda.") }
+                throw e
             }
         }
     }
