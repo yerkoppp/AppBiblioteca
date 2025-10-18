@@ -7,8 +7,6 @@
 
 <div align="center">
 
-![Pantalla de Inicio](assets/pantalla_inicio.webp)
-
 **Aplicación Android moderna para la gestión y búsqueda de catálogos bibliográficos**
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-purple.svg)](https://kotlinlang.org)
@@ -34,43 +32,46 @@ Sistema desarrollado para la **Municipalidad** con el objetivo de modernizar el 
 
 ---
 
+
 ## 🖼️ Capturas de Pantalla
 
 <div align="center">
-
-### Pantalla de Búsqueda
-![Búsqueda de Autor](assets/busqueda_autor.webp)
-
-*Interfaz principal con campo de búsqueda y resultados en tiempo real*
-
----
-
-### Catálogo Completo
-![Catálogo Completo](assets/catalogo_completo.webp)
-
-*Vista completa del catálogo con libros y artículos disponibles*
-
----
-
-### Detalles de Libro
-![Pantalla de Libro](assets/pantalla_libro.webp)
-
-*Vista detallada con portada, descripción y estado de disponibilidad*
-
----
-
-### Detalles de Artículo
-![Pantalla de Artículo](assets/pantalla_articulo.webp)
-
-*Vista de artículos académicos con contenido completo*
-
----
-
-### Estados de Carga
-![Cargando Búsqueda](assets/cargando_busqueda_autor.webp)
-
-*Indicadores de progreso durante operaciones asíncronas*
-
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/pantalla_inicio.webp" width="250"/><br/>
+      <b>Pantalla Inicial</b><br/>
+      <sub>Estado de bienvenida</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/busqueda_autor.webp" width="250"/><br/>
+      <b>Búsqueda por Autor</b><br/>
+      <sub>Resultados filtrados</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/catalogo_completo.webp" width="250"/><br/>
+      <b>Catálogo Completo</b><br/>
+      <sub>Libros y artículos</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/pantalla_libro.webp" width="250"/><br/>
+      <b>Detalle de Libro</b><br/>
+      <sub>Vista completa con portada</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/pantalla_articulo.webp" width="250"/><br/>
+      <b>Detalle de Artículo</b><br/>
+      <sub>Contenido académico</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/cargando_busqueda_autor.webp" width="250"/><br/>
+      <b>Estado de Carga</b><br/>
+      <sub>Operación asíncrona</sub>
+    </td>
+  </tr>
+</table>
 </div>
 
 ---
@@ -297,31 +298,31 @@ cd biblioteca
 
 ### ✅ Checklist de Requisitos Técnicos
 
-- [x] Uso obligatorio de **Kotlin Coroutines**
-- [x] Función `launch` implementada
-- [x] Función `async` implementada
-- [x] Función `withContext` implementada
-- [x] Función `await` implementada
-- [x] Separación Main Thread / Background Thread
-- [x] Simulación de API REST con `delay()`
-- [x] ProgressBar durante búsquedas
-- [x] Manejo de Job y cancelación
-- [x] Documentación en código
+- ✅ Uso obligatorio de Kotlin Coroutines
+- ✅ Función launch implementada
+- ✅ Función async implementada
+- ✅ Función withContext implementada
+- ✅ Función await implementada
+- ✅ Separación Main Thread / Background Thread
+- ✅ Simulación de API REST con delay()
+- ✅ ProgressBar durante búsquedas
+- ✅ Manejo de Job y cancelación
+- ✅ Documentación en código
 
 ### ✅ Checklist de Requisitos Funcionales
 
-- [x] Búsqueda por palabras clave
-- [x] Consultas asíncronas
-- [x] Resultados en lista
-- [x] No afecta experiencia de uso
-- [x] Manejo del ciclo de vida
-- [x] Cancelación al abandonar pantalla
+- ✅ Búsqueda por palabras clave
+- ✅ Consultas asíncronas
+- ✅ Resultados en lista
+- ✅ No afecta experiencia de uso
+- ✅ Manejo del ciclo de vida
+- ✅ Cancelación al abandonar pantalla
 
 ---
 
 ## 👨‍💻 Autor
 
-**Yerson Osorio**
+**Yerko Osorio**
 - GitHub: [@yerkoppp](https://github.com/yerkoppp)
 
 ---
